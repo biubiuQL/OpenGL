@@ -1,1 +1,6 @@
-﻿
+﻿  p2.cpp
+p2.obj : error LNK2005: "void __cdecl framebuffer_size_callback(struct GLFWwindow *,int,int)" (?framebuffer_size_callback@@YAXPAUGLFWwindow@@HH@Z) 已经在 p1.obj 中定义
+p2.obj : error LNK2005: "void __cdecl processInput(struct GLFWwindow *)" (?processInput@@YAXPAUGLFWwindow@@@Z) 已经在 p1.obj 中定义
+p2.obj : error LNK2005: _main 已经在 p1.obj 中定义
+LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+C:\Users\admin\Documents\OpenGL\Debug\p1.exe : fatal error LNK1169: 找到一个或多个多重定义的符号
